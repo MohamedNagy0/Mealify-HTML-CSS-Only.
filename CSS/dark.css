@@ -1,0 +1,29 @@
+body:has(.dark):has(.dark-mode-input:checked).dark {
+  /* Colors */
+  --wight: #ffffff;
+  --primary-color: #c17e1f;
+  --secondary-color: #fff;
+  --h2-h5-p-light-color: #9f9f9f;
+  --h3-color: #fff;
+  --p-bold-color: #9f9f9f;
+  --selection-color: #212529;
+  /* bg-colors */
+  --main-bg-color: #202020;
+  --secondarye-bg-color: #252525;
+  --selection-bg-color: #c17e1f;
+  /* Hover color */
+  --hover-color: #d8891a;
+  /* box-shadow */
+  --box-shadow: black;
+  /* boradr-color */
+  --bordar-color: #fff;
+  /* fake-secondarye-clor */
+  --fake-secondarye-color: #fff;
+}
+body:has(.dark-mode):has(.dark-mode-input:checked) .chefs-img-parent::before {
+  content: url("../img/bg/team-shape-dark.svg");
+  width: 100%;
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+}
